@@ -5,89 +5,90 @@ export default function OtrasTecnologias() {
         Otras tecnologias
       </p>
       <div className="flex mt-3 mr-2 items-center space-x-1">
-        <span className="flex-shrink-0 w-12 text-sm mr-6">HTML</span>
+        <span className="flex-shrink-0 w-12 text-sm mr-9">HTML</span>
         <div className="flex-1 h-4 overflow-hidden rounded-sm dark:bg-gray-300">
           <div className="dark:bg-slate-700 h-4 w-3/6"></div>
         </div>
       </div>
       <div className="flex mt-3 mr-2 items-center space-x-1">
-        <span className="flex-shrink-0 w-12 text-sm mr-6">CSS</span>
+        <span className="flex-shrink-0 w-12 text-sm mr-9">CSS</span>
         <div className="flex-1 h-4 overflow-hidden rounded-sm dark:bg-gray-300">
           <div className="dark:bg-slate-700 h-4 w-5/6"></div>
         </div>
       </div>
       <div className="flex mt-3 mr-2 items-center space-x-1">
-        <span className="flex-shrink-0 w-12 text-sm mr-6">TAILWIND</span>
+        <span className="flex-shrink-0 w-12 text-sm mr-9">TAILWIND</span>
         <div className="flex-1 h-4 overflow-hidden rounded-sm dark:bg-gray-300">
           <div className="dark:bg-slate-700 h-4 w-4/6"></div>
         </div>
       </div>
       <div className="flex mt-3 mr-2 items-center space-x-1">
-        <span className="flex-shrink-0 w-12 text-sm mr-6">BOOTSTRAP</span>
+        <span className="flex-shrink-0 w-12 text-sm mr-9">BOOTSTRAP</span>
         <div className="flex-1 h-4 overflow-hidden rounded-sm dark:bg-gray-300">
           <div className="dark:bg-slate-700 h-4 w-4/6"></div>
         </div>
       </div>
       <div className="flex mt-3 mr-2 items-center space-x-1">
-        <span className="flex-shrink-0 w-12 text-sm mr-6">SQL</span>
+        <span className="flex-shrink-0 w-12 text-sm mr-9">SQL</span>
         <div className="flex-1 h-4 overflow-hidden rounded-sm dark:bg-gray-300">
           <div className="dark:bg-slate-700 h-4 w-3/6"></div>
         </div>
       </div>
       <div className="flex mt-3 mr-2  items-center space-x-1">
-        <span className="flex-shrink-0 w-12 text-sm mr-6">GIT</span>
+        <span className="flex-shrink-0 w-12 text-sm mr-9">GIT</span>
         <div className="flex-1 h-4 overflow-hidden rounded-sm dark:bg-gray-300">
           <div className="dark:bg-slate-700 h-4 w-3/6"></div>
         </div>
       </div>
       <div className="flex mt-3 mr-2  items-center space-x-1">
-        <span className="flex-shrink-0 w-12 text-sm mr-6">MYSQL</span>
+        <span className="flex-shrink-0 w-12 text-sm mr-9">MYSQL</span>
         <div className="flex-1 h-4 overflow-hidden rounded-sm dark:bg-gray-300">
           <div className="dark:bg-slate-700 h-4 w-3/6"></div>
         </div>
       </div>
       <div className="flex mt-3 mr-2  items-center space-x-1">
-        <span className="flex-shrink-0 w-12 text-sm mr-6">POSTGRESQL</span>
+        <span className="flex-shrink-0 w-12 text-sm mr-9">POSTGRESQL</span>
+        <div className="flex-1 h-4 overflow-hidden rounded-sm dark:bg-gray-300">
+          <div className="dark:bg-slate-700 h-4 w-3/6"></div>
+        </div>
+      </div>
+      <div className="flex mt-3 mr-2  items-center space-x-1">
+        <span className="flex-shrink-0 w-12 text-sm mr-9">MONGODB</span>
         <div className="flex-1 h-4 overflow-hidden rounded-sm dark:bg-gray-300">
           <div className="dark:bg-slate-700 h-4 w-3/6"></div>
         </div>
       </div>
       <div className="flex mt-3 mr-2 items-center space-x-1">
-        <span className="flex-shrink-0 w-12 text-sm mr-6">GITHUB</span>
+        <span className="flex-shrink-0 w-12 text-sm mr-9">FIREBASE</span>
+        <div className="flex-1 h-4 overflow-hidden rounded-sm dark:bg-gray-300">
+          <div className="dark:bg-slate-700 h-4 w-3/6"></div>
+        </div>
+      </div>
+      <div className="flex mt-3 mr-2  items-center space-x-1">
+        <span className="flex-shrink-0 w-12 text-sm mr-9">SUPABASE</span>
+        <div className="flex-1 h-4 overflow-hidden rounded-sm dark:bg-gray-300">
+          <div className="dark:bg-slate-700 h-4 w-4/6"></div>
+        </div>
+      </div>
+      <div className="flex mt-3 mr-2 items-center space-x-1">
+        <span className="flex-shrink-0 w-12 text-sm mr-9">GITHUB</span>
         <div className="flex-1 h-4 overflow-hidden rounded-sm dark:bg-gray-300">
           <div className="dark:bg-slate-700 h-4 w-5/6"></div>
         </div>
       </div>
       <div className="flex mt-3 mr-2  items-center space-x-1">
-        <span className="flex-shrink-0 w-12 text-sm mr-6">BITBUCKET</span>
+        <span className="flex-shrink-0 w-12 text-sm mr-9">BITBUCKET</span>
         <div className="flex-1 h-4 overflow-hidden rounded-sm dark:bg-gray-300">
           <div className="dark:bg-slate-700 h-4 w-4/6"></div>
         </div>
       </div>
       <div className="flex mt-3 mr-2  items-center space-x-1">
-        <span className="flex-shrink-0 w-12 text-sm mr-6">JIRA</span>
+        <span className="flex-shrink-0 w-12 text-sm mr-9">JIRA</span>
         <div className="flex-1 h-4 overflow-hidden rounded-sm dark:bg-gray-300">
           <div className="dark:bg-slate-700 h-4 w-5/6"></div>
         </div>
       </div>
-      <div className="flex mt-3 mr-2  items-center space-x-1">
-        <span className="flex-shrink-0 w-12 text-sm mr-6">MONGODB</span>
-        <div className="flex-1 h-4 overflow-hidden rounded-sm dark:bg-gray-300">
-          <div className="dark:bg-slate-700 h-4 w-3/6"></div>
-        </div>
-      </div>
-      <div className="flex mt-3 mr-2 items-center space-x-1">
-        <span className="flex-shrink-0 w-12 text-sm mr-6">FIREBASE</span>
-        <div className="flex-1 h-4 overflow-hidden rounded-sm dark:bg-gray-300">
-          <div className="dark:bg-slate-700 h-4 w-3/6"></div>
-        </div>
-      </div>
-      <div className="flex mt-3 mr-2  items-center space-x-1">
-        <span className="flex-shrink-0 w-12 text-sm mr-6">SUPABASE</span>
-        <div className="flex-1 h-4 overflow-hidden rounded-sm dark:bg-gray-300">
-          <div className="dark:bg-slate-700 h-4 w-3/6"></div>
-        </div>
-      </div>
+
 
     </>
   );

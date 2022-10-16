@@ -14,6 +14,8 @@ export default function Header() {
 						<p className="">305 273 8798</p>
 						<p className="">luismzo789@gmail.com</p>
 						<p className="">Cra 7b 13-65 Miranda-Cauca</p>
+						
+						<a href="https://drive.google.com/uc?id=1YkxzfVZWdNyIr3tTy66F6CQR-C7vXFCm&export=download&authuser=0" className="btn p-2 text-center mt-4 bg-green-900 rounded-md">Descargar en PDF</a>
 					</div>
 				</div>
 			</div>

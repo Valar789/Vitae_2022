@@ -5,19 +5,19 @@ export default function Lenguajes() {
         Lenguajes
       </p>
       <div className="flex mt-3 mr-2 items-center space-x-1">
-        <span className="flex-shrink-0 w-12 text-sm mr-4">Javascript</span>
+        <span className="flex-shrink-0 w-12 text-sm mr-9">Javascript</span>
         <div className="flex-1 h-4 overflow-hidden rounded-sm dark:bg-gray-300">
           <div className="dark:bg-yellow-300 h-4 w-5/6"></div>
         </div>
       </div>
       <div className="flex mt-3 mr-2  items-center space-x-1">
-        <span className="flex-shrink-0 w-12 text-sm mr-4">Python</span>
+        <span className="flex-shrink-0 w-12 text-sm mr-9">Python</span>
         <div className="flex-1 h-4 overflow-hidden rounded-sm dark:bg-gray-300">
           <div className="dark:bg-red-700 h-4 w-3/6"></div>
         </div>
       </div>
       <div className="flex mt-3 mr-2  items-center space-x-1">
-        <span className="flex-shrink-0 w-12 text-sm mr-4">Java</span>
+        <span className="flex-shrink-0 w-12 text-sm mr-9">Java</span>
         <div className="flex-1 h-4 overflow-hidden rounded-sm dark:bg-gray-300">
           <div className="dark:bg-green-700 h-4 w-1/6"></div>
         </div>
