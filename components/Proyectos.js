@@ -17,7 +17,7 @@ export default function Proyectos() {
         </div>
         <div className="container justify-center gap-4 mx-auto grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
           <div className="flex flex-col px-6 py-6">
-            <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font dark:text-gray-700">
+            <h2 className="mb-2 text-lg text-center font-semibold sm:text-xl title-font dark:text-gray-700">
               Individuales
             </h2>
 
@@ -43,7 +43,7 @@ export default function Proyectos() {
             <li>E-commerce</li>
           </div>
           <div className="flex flex-col px-6 py-6">
-            <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font dark:text-gray-700">
+            <h2 className="mb-2 text-lg font-semibold text-center sm:text-xl title-font dark:text-gray-700">
               UNAL
             </h2>
   
@@ -89,7 +89,7 @@ export default function Proyectos() {
             </li>
           </div>
           <div className="flex flex-col px-6 py-6 lg:border-none xl:border-solid">
-            <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font dark:text-gray-700">
+            <h2 className="mb-2 text-lg font-semibold text-center sm:text-xl title-font dark:text-gray-700">
               GitHub
             </h2>
             <li>
