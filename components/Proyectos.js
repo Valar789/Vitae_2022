@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function About() {
+export default function Proyectos() {
   return (
     <section className="  dark:text-gray-800">
       <div className="container py-7 bg-white  max-w-5xl px-4 mx-auto">
@@ -22,6 +22,11 @@ export default function About() {
             </h2>
 
             <li>
+              <Link href="https://localhostweb.vercel.app">
+                <a target="_blank">LocalHost</a>
+              </Link>
+            </li>
+            <li>
               <Link href="https://kota-ten.vercel.app">
                 <a target="_blank">Kota Arquitectura</a>
               </Link>
@@ -33,30 +38,62 @@ export default function About() {
             </li>
             <li>Butifarra</li>
             <li>Blog Django</li>
-            <li>Butifarra</li>
-            <li>Frontend React</li>
-            <li>Frontend Nextjs</li>
+            <li>Gestion Inversiones</li>
+            <li>Vitae</li>
+            <li>E-commerce</li>
           </div>
           <div className="flex flex-col px-6 py-6">
             <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font dark:text-gray-700">
               UNAL
             </h2>
-
-            <li>Rest API Django</li>
-            <li>Rest API Django Rest</li>
-            <li>Backend Flask</li>
-            <li>Backend Java</li>
-            <li>Api Gateway</li>
-            <li>Frontend React</li>
-            <li>Frontend Nextjs</li>
-            <p>Proyecto Microservicios</p>
+  
+            <li>
+              <Link href="https://bitbucket.org/yohangr4/historiasclinicas/src/master/">
+                <a target="_blank">Rest API Django</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="https://bitbucket.org/yohangr4/historiasclinicas/src/master/">
+                <a target="_blank">Rest API Django Rest</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="#!">
+                <a target="_blank">Backend Flask</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="#!">
+                <a target="_blank">Backend Java</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="#!">
+                <a target="_blank">Api Gateway</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="https://bitbucket.org/yohangr4/historiasclinicasfe/src/master/">
+                <a target="_blank">Frontend Historias Clinicas React</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="#!">
+                <a target="_blank">Frontend Nextjs</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="#!">
+                <a target="_blank">Proyecto Microservicios</a>
+              </Link>
+            </li>
           </div>
           <div className="flex flex-col px-6 py-6 lg:border-none xl:border-solid">
             <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font dark:text-gray-700">
               GitHub
             </h2>
             <li>
-              <Link href="https://kota-ten.vercel.app">
+              <Link href="https://github.com/Valar789/kota_arquitectura">
                 <a target="_blank">Kota Arquitectura</a>
               </Link>
             </li>

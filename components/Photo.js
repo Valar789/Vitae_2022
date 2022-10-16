@@ -1,46 +1,51 @@
 import Image from "next/image";
 import Link from "next/link";
-import photo from "../public/photo.jpeg"
+import photo from "../public/photoeje.jpg";
 
 export default function Photo() {
-    return (
-        <div>
-        <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
-          <Image
-            className="object-cover w-full h-56 md:h-64 xl:h-80"
-           src={photo}
-           alt="Person"
-          />
-          <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-            <p className="mb-1 text-lg font-bold text-gray-100">
-              Oliver Aguilerra
-            </p>
-            <p className="mb-4 text-xs text-gray-100">Product Manager</p>
-            <p className="mb-4 text-xs tracking-wide text-gray-400">
-              Vincent Van Gogh’s most popular painting, The Starry Night.
-            </p>
-            <div className="flex items-center justify-center space-x-3">
-              <Link href="/"><a
-                
-                className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-              >
-                <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
-                  <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
+  return (
+    <div>
+      <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+        <Image
+          className="object-cover w-full h-56 md:h-64 xl:h-80"
+          src={photo}
+          alt="Person"
+        />
+        <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
+          <p className="mb-1 text-lg font-bold text-gray-100">Edad: 30 años</p>
+          <p className=" text-xs text-gray-100">Hobbies</p>
+          <p className="mb-4 text-xs tracking-wide text-gray-200">
+            Tocar guitarra, caminar y estudiar.
+          </p>
+          <div className="flex items-center justify-center space-x-3">
+            <Link href="https://www.linkedin.com/in/luismiguelzuetaorozco/">
+              <a className="text-white transition-colors duration-300 hover:text-teal-accent-400">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 48 48"
+                >
+                  <path
+                    fill="#0288d1"
+                    d="M8.421 14h.052 0C11.263 14 13 12 13 9.5 12.948 6.945 11.263 5 8.526 5 5.789 5 4 6.945 4 9.5 4 12 5.736 14 8.421 14zM4 17H13V43H4zM44 26.5c0-5.247-4.253-9.5-9.5-9.5-3.053 0-5.762 1.446-7.5 3.684V17h-9v26h9V28h0c0-2.209 1.791-4 4-4s4 1.791 4 4v15h9C44 43 44 27.955 44 26.5z"
+                  ></path>
                 </svg>
               </a>
-              </Link>
-              <Link href="/"><a
-               
-                className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-              >
-                <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
-                  <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
-                </svg>
+            </Link>
+            <Link href="https://www.facebook.com/zuletaorozcoluismiguel">
+              <a className="text-white transition-colors duration-300 hover:text-teal-accent-400">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="23" height="24"
+viewBox="0 0 48 48"
+ ><path fill="#039be5" d="M24 5A19 19 0 1 0 24 43A19 19 0 1 0 24 5Z"></path><path fill="#fff" d="M26.572,29.036h4.917l0.772-4.995h-5.69v-2.73c0-2.075,0.678-3.915,2.619-3.915h3.119v-4.359c-0.548-0.074-1.707-0.236-3.897-0.236c-4.573,0-7.254,2.415-7.254,7.917v3.323h-4.701v4.995h4.701v13.729C22.089,42.905,23.032,43,24,43c0.875,0,1.729-0.08,2.572-0.194V29.036z"></path></svg>
               </a>
-              </Link>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
-    );
+    </div>
+  );
 }
