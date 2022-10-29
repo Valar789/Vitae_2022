@@ -58,7 +58,7 @@ export default function Estudios() {
           <time className="text-xs tracking-wide uppercase dark:text-gray-400">
             2022
           </time>
-          <p className="">Desde 2015 (independiente).</p>
+          <p className="">Desde 2015.</p>
         </div>
 
       </div>

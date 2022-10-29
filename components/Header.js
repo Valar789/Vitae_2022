@@ -18,8 +18,8 @@ export default function Header() {
 						<p className="flex gap-2 mt-2"><Image className="" src={phone} alt='icon'/>305 273 8798</p>
 						<p className="flex gap-2 mt-2"><Image className="" src={email} alt='icon'/>luismzo789@gmail.com</p>
 
-						
-						<a href="https://drive.google.com/uc?id=1YkxzfVZWdNyIr3tTy66F6CQR-C7vXFCm&export=download&authuser=0" className="btn p-2 text-center mt-4 bg-green-900 hover:text-white rounded-md">Descargar en PDF</a>
+
+						<a href="https://drive.google.com/uc?id=1vUfc9usytOzEiXxH4OHsOtkmQvyAsZRO&export=download&authuser=0" className="btn p-2 text-center mt-4 bg-green-900 hover:text-white rounded-md">Descargar en PDF</a>
 					</div>
 				</div>
 			</div>
@@ -33,7 +33,7 @@ export default function Header() {
 					<div className="flex flex-col sm:relative  ">
 						<h3 className="text-xl font-semibold tracking-wide">Sobre mi</h3>
 
-						<p className="mt-3">Soy una persona resolutiva, con gran capacidad para adaptacion, me apasiona todo lo relacionado con la tecnologia. Durante mi trayectoria he podido aprender y perfeccionar conocimientos que me han ayudado a construir un perfil específico. En la actualidad estoy buscando un empleo en la que pueda  seguir ampliando mi experiencia y que me permita asumir nuevas responsabilidades como desarrollador.</p>
+						<p className="mt-3">Soy una persona resolutiva, con gran capacidad para adaptación, me apasiona todo lo relacionado con la tecnología. Durante mi trayectoria he podido aprender y perfeccionar conocimientos que me han ayudado a construir un perfil específico. En la actualidad estoy buscando un empleo en la que pueda seguir ampliando mi experiencia y que me permita asumir nuevas responsabilidades como desarrollador.</p>
 					</div>
 
 				</div>

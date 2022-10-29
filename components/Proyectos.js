@@ -9,10 +9,7 @@ export default function Proyectos() {
             Proyectos como Desarrollador Web
           </h2>
           <p>
-            Durante mi proceso de aprendizaje he realizado diversos proyectos en
-            equipos e indiviuales, he colaborado con personas de gran capacidad
-            resolutiva y diversos conocimiento en las diferentes areas de las
-            cuales he aprendido mucho.
+          Durante mi proceso de aprendizaje he realizado diversos proyectos en equipos e individuales, he colaborado con personas de gran capacidad resolutiva y diverso conocimiento en las diferentes áreas de las cuales he aprendido mucho.
           </p>
         </div>
         <div className="container justify-center gap-4 mx-auto grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
@@ -38,7 +35,7 @@ export default function Proyectos() {
             </li>
             <li>Vitae</li>
             <li>Blog Django</li>
-            <li>Gestion Inversiones</li>
+            <li>Gestión Inversiones</li>
             <li>E-commerce</li>
           </div>
           <div className="flex flex-col px-6 py-6">
