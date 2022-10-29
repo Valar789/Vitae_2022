@@ -17,7 +17,7 @@ export default function Header() {
 
 						<p className="flex gap-2 mt-2"><Image className="" src={phone} alt='icon'/>305 273 8798</p>
 						<p className="flex gap-2 mt-2"><Image className="" src={email} alt='icon'/>luismzo789@gmail.com</p>
-						<p className="flex gap-2 mt-2"><Image className="" src={location} alt='icon'/>7b 13-65 Miranda-Cauca</p>
+
 						
 						<a href="https://drive.google.com/uc?id=1YkxzfVZWdNyIr3tTy66F6CQR-C7vXFCm&export=download&authuser=0" className="btn p-2 text-center mt-4 bg-green-900 hover:text-white rounded-md">Descargar en PDF</a>
 					</div>
@@ -27,8 +27,8 @@ export default function Header() {
 				<div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:dark:bg-white">
 					<div className="flex flex-col sm:relative  ">
 						<h1 className="text-5xl font-semibold uppercase tracking-wide">Luis Miguel Zuleta Orozco</h1>
-						<time className="text-xl pt-5 tracking-wide   dark:text-gray-400">Aspirante a Desarrollador Web</time>
-						<p className="mt-3">En busqueda de mi primer empleo como Desarrollador Web</p>
+						<time className="text-xl pt-5 tracking-wide   dark:text-gray-400">Desarrollador Web</time>
+
 					</div>
 					<div className="flex flex-col sm:relative  ">
 						<h3 className="text-xl font-semibold tracking-wide">Sobre mi</h3>

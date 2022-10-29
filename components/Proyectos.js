@@ -36,10 +36,9 @@ export default function Proyectos() {
                 <a target="_blank">MirandaPC</a>
               </Link>
             </li>
-            <li>Butifarra</li>
+            <li>Vitae</li>
             <li>Blog Django</li>
             <li>Gestion Inversiones</li>
-            <li>Vitae</li>
             <li>E-commerce</li>
           </div>
           <div className="flex flex-col px-6 py-6">
@@ -58,17 +57,17 @@ export default function Proyectos() {
               </Link>
             </li>
             <li>
-              <Link href="#!">
-                <a target="_blank">Backend Flask</a>
+              <Link href="https://github.com/MisionTicCiclo4a/API-flask-registraduria">
+                <a target="_blank">Backend Registraduria Flask</a>
               </Link>
             </li>
             <li>
-              <Link href="#!">
-                <a target="_blank">Backend Java</a>
+              <Link href="https://github.com/MisionTicCiclo4a/backend-springboot-registraduria">
+                <a target="_blank">Backend Seguridad SpringBoot</a>
               </Link>
             </li>
             <li>
-              <Link href="#!">
+              <Link href="https://github.com/MisionTicCiclo4a/apigateway_registraduria">
                 <a target="_blank">Api Gateway</a>
               </Link>
             </li>
@@ -78,7 +77,7 @@ export default function Proyectos() {
               </Link>
             </li>
             <li>
-              <Link href="#!">
+              <Link href="https://github.com/MisionTicCiclo4a/frontend_registraduria_nextjs">
                 <a target="_blank">Frontend Nextjs</a>
               </Link>
             </li>
@@ -98,7 +97,7 @@ export default function Proyectos() {
               </Link>
             </li>
             <li>
-              <Link href="https://mirandapc.vercel.app">
+              <Link href="https://github.com/Valar789/miranda_pc">
                 <a target="_blank">MirandaPC</a>
               </Link>
             </li>
