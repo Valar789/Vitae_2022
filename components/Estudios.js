@@ -9,7 +9,7 @@ export default function Estudios() {
           <h3 className="text-xl font-semibold tracking-wide">
             Universidad Nacional de Colombia (UNAL)
           </h3>
-          <time className="text-xs tracking-wide uppercase dark:text-gray-400">
+          <time className="text-xs tracking-wide uppercase dark:text-gray-700">
             2022
           </time>
           <p className="mt-3">DIPLOMADO: DESARROLLO WEB.</p>
@@ -18,7 +18,7 @@ export default function Estudios() {
           <h3 className="text-xl font-semibold tracking-wide">
             Universidad Nacional de Colombia (UNAL)
           </h3>
-          <time className="text-xs tracking-wide uppercase dark:text-gray-400">
+          <time className="text-xs tracking-wide uppercase dark:text-gray-700">
             2022
           </time>
           <p className="mt-3">DIPLOMADO: DESARROLLO DE SOFTWARE .</p>
@@ -27,7 +27,7 @@ export default function Estudios() {
           <h3 className="text-xl font-semibold tracking-wide">
             Universidad Nacional de Colombia (UNAL)
           </h3>
-          <time className="text-xs tracking-wide uppercase dark:text-gray-400">
+          <time className="text-xs tracking-wide uppercase dark:text-gray-700">
             2022
           </time>
           <p className="mt-3">DIPLOMADO: PROGRAMACIÓN BÁSICA.</p>
@@ -36,14 +36,14 @@ export default function Estudios() {
           <h3 className="text-xl font-semibold tracking-wide">
            Udemy
           </h3>
-          <time className="text-xs tracking-wide uppercase dark:text-gray-400">
+          <time className="text-xs tracking-wide uppercase dark:text-gray-700">
             2022
           </time>
           <p className="mt-3">REACT EXPERTO</p>
         </div>
         <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-slate-700">
           <h3 className="text-xl font-semibold tracking-wide">Sena</h3>
-          <time className="text-xs tracking-wide uppercase dark:text-gray-400">
+          <time className="text-xs tracking-wide uppercase dark:text-gray-700">
             2019
           </time>
           <p className="mt-3">
@@ -55,7 +55,7 @@ export default function Estudios() {
           <h3 className="text-xl font-semibold tracking-wide">
             Soporte Tecnico para el mantenimiento de equipos de computo        
           </h3>
-          <time className="text-xs tracking-wide uppercase dark:text-gray-400">
+          <time className="text-xs tracking-wide uppercase dark:text-gray-700">
             2022
           </time>
           <p className="">Desde 2015.</p>

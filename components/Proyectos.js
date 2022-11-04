@@ -1,109 +1,35 @@
 import Link from "next/link";
+import Individuales from "./proyectos/Individuales";
+import Universidad from "./proyectos/Universidad";
 
 export default function Proyectos() {
   return (
     <section className="  dark:text-gray-800">
-      <div className="container py-7 bg-white  max-w-5xl px-4 mx-auto">
+      <div className="py-7 bg-white  max-w-5xl px-4 mx-auto">
         <div className="container p-4 mx-auto   space-y-1 text-center">
-          <h2 className="pb-3 text-2xl font-bold md:text-4xl">
+          <h2 className="pb-4 text-2xl font-bold md:text-4xl">
             Proyectos como Desarrollador Web
           </h2>
           <p>
-          Durante mi proceso de aprendizaje he realizado diversos proyectos en equipos e individuales, he colaborado con personas de gran capacidad resolutiva y diverso conocimiento en las diferentes áreas de las cuales he aprendido mucho.
+            Durante mi proceso de aprendizaje he realizado diversos proyectos en
+            equipos e individuales, he colaborado con personas de gran capacidad
+            resolutiva y diverso conocimiento en las diferentes áreas de las
+            cuales he aprendido mucho.
           </p>
         </div>
-        <div className="container justify-center gap-4 mx-auto grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
-          <div className="flex flex-col px-6 py-6">
-            <h2 className="mb-2 text-lg text-center font-semibold sm:text-xl title-font dark:text-gray-700">
-              Individuales
+        <div className="mx-auto grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
+          <div className="flex flex-col mx-auto">
+            <h2 className="mx-auto my-4 text-lg font-bold sm:text-xl title-font dark:text-gray-700">
+              Propios
             </h2>
 
-            <li>
-              <Link href="https://localhostweb.vercel.app">
-                <a target="_blank">LocalHost</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="https://kota-ten.vercel.app">
-                <a target="_blank">Kota Arquitectura</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="https://mirandapc.vercel.app">
-                <a target="_blank">MirandaPC</a>
-              </Link>
-            </li>
-            <li>Vitae</li>
-            <li>Blog Django</li>
-            <li>Gestión Inversiones</li>
-            <li>E-commerce</li>
+            <Individuales />
           </div>
-          <div className="flex flex-col px-6 py-6">
-            <h2 className="mb-2 text-lg font-semibold text-center sm:text-xl title-font dark:text-gray-700">
-              UNAL
+          <div className="flex flex-col mx-auto">
+            <h2 className="mx-auto my-4  text-lg font-bold sm:text-xl title-font dark:text-gray-700">
+              Universidad
             </h2>
-  
-            <li>
-              <Link href="https://bitbucket.org/yohangr4/historiasclinicas/src/master/">
-                <a target="_blank">Rest API Django</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="https://bitbucket.org/yohangr4/historiasclinicas/src/master/">
-                <a target="_blank">Rest API Django Rest</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="https://github.com/MisionTicCiclo4a/API-flask-registraduria">
-                <a target="_blank">Backend Registraduria Flask</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="https://github.com/MisionTicCiclo4a/backend-springboot-registraduria">
-                <a target="_blank">Backend Seguridad SpringBoot</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="https://github.com/MisionTicCiclo4a/apigateway_registraduria">
-                <a target="_blank">Api Gateway</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="https://bitbucket.org/yohangr4/historiasclinicasfe/src/master/">
-                <a target="_blank">Frontend Historias Clinicas React</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="https://github.com/MisionTicCiclo4a/frontend_registraduria_nextjs">
-                <a target="_blank">Frontend Nextjs</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="#!">
-                <a target="_blank">Proyecto Microservicios</a>
-              </Link>
-            </li>
-          </div>
-          <div className="flex flex-col px-6 py-6 lg:border-none xl:border-solid">
-            <h2 className="mb-2 text-lg font-semibold text-center sm:text-xl title-font dark:text-gray-700">
-              GitHub
-            </h2>
-            <li>
-              <Link href="https://github.com/Valar789/kota_arquitectura">
-                <a target="_blank">Kota Arquitectura</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="https://github.com/Valar789/miranda_pc">
-                <a target="_blank">MirandaPC</a>
-              </Link>
-            </li>
-            <li>Blog Django</li>
-            <li>Backend Java</li>
-            <li>Frontend React</li>
-            <li>Frontend Nextjs</li>
-            <li>Historias Clinicas Unal</li>
-            <li>Registraduria Microservicios</li>
+            <Universidad />
           </div>
         </div>
       </div>

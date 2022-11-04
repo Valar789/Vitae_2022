@@ -1,7 +1,7 @@
 export default function OtrasTecnologias() {
   return (
     <>
-      <p className="text-sm mt-7 dark:text-gray-400 text-left">
+      <p className="text-sm mt-7 dark:text-gray-700 text-left">
         Otras tecnologias
       </p>
       <div className="flex mt-3 mr-2 items-center space-x-1">

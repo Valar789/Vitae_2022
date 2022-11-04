@@ -1,7 +1,7 @@
 export default function Lenguajes() {
   return (
     <>
-      <p className="text-sm mt-7 dark:text-gray-400 mb-4 text-left">
+      <p className="text-sm mt-7 dark:text-gray-700 mb-4 text-left">
         Lenguajes
       </p>
       <div className="flex mt-3 mr-2 items-center space-x-1">

@@ -4,16 +4,15 @@
 
 html,
 body {
-  background-color: rgb(212, 212, 212);
+  background-image: linear-gradient(to right top, #1b1b1b, #1c1c1d, #1d1c1f, #1f1d21, #211d22, #231f26, #24212a, #25242f, #232a37, #1f313c, #1d383e, #1f3e3e);
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a:hover{
-  color: rgb(53, 32, 1);
-
+a:hover {
+  @apply text-gray-500
 }
 
 * {
