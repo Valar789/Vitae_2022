@@ -10,12 +10,12 @@ export default function Header() {
   return (
     <section className="text-white">
       <div className="container bg-white text-gray-800 max-w-5xl px-4 py-16 mx-auto shadow-xl">
-        <div className="grid gap-4 mx-4  sm:grid-cols-12">
+        <div className="grid gap-4 mx-4 grid-cols-12 sm:grid-cols-12">
           <div className="col-span-12 sm:col-span-4">
             <div className="text-center sm:text-left mb-14">
               <Photo />
               <div className="flex pt-5 flex-col sm:relative  ">
-                <h3 className="text-xl mb-2 font-semibold tracking-wide">
+                <h3 className="text-xl text-teal-600 mb-2 font-semibold tracking-wide">
                   Contacto
                 </h3>
 
@@ -39,17 +39,17 @@ export default function Header() {
 
                 <a
                   href="https://drive.google.com/uc?id=1vUfc9usytOzEiXxH4OHsOtkmQvyAsZRO&export=download&authuser=0"
-                  className="btn p-2 text-center text-white mt-4 bg-green-800 hover:text-white rounded-md hover:bg-green-700"
+                  className="p-2 rounded-md text-center text-white bg-gradient-to-r from-teal-600 via-teal-800 to-teal-900 hover:bg-gradient-to-br hover:text-white focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:rin/feed/libraryg-teal-800 shadow-lg shadow-teal-500/50 dark:shadow-lg dark:shadow-teal-800/80 mt-4"
                 >
                   Descargar en PDF
                 </a>
               </div>
             </div>
           </div>
-          <div className="relative col-span-12 px-4 space-y-6 sm:col-span-8">
-            <div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:dark:bg-white">
+          <div className="relative col-span-12 px-4 space-y-3 sm:col-span-8">
+            <div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:dark:bg-slate-700">
               <div className="flex flex-col sm:relative  ">
-                <h1 className="text-6xl font-semibold uppercase tracking-wide">
+                <h1 className="text-4xl sm:text-6xl text-slate-900 font-semibold uppercase tracking-wide">
                   Luis Miguel Zuleta Orozco
                 </h1>
                 <time className="text-xl pt-5 tracking-wide  font-semibold dark:text-gray-500">
@@ -57,7 +57,7 @@ export default function Header() {
                 </time>
               </div>
               <div className="flex flex-col sm:relative  ">
-                <h3 className="text-xl font-semibold tracking-wide">
+                <h3 className="text-xl text-teal-600 font-semibold tracking-wide">
                   Sobre mi
                 </h3>
 

@@ -58,14 +58,18 @@ const Universidad = () => {
       {proyectosIndividuales.map((project, index) => (
         <div key={index}>
           <div className="flex justify-between justify-items-center font-semibold gap-2">
-            {project.nameProject}
-            {project.exercise === true && <div className="text-red-700">(ejercicio)</div>}
+          <Link href={project.url}>
+              <a className="text-teal-600 font-bold" target="_blank">
+                {project.nameProject}
+              </a>
+            </Link>
 
-            <div className="gap-2 flex ">
+            <div className="gap-2 flex flex-wrap">
               <Image src={rightArrow} alt="" />
+
               <Link href={project.url}>
-                <a className="text-blue-900 font-bold" target="_blank">
-                  Demo 
+                <a className="text-slate-900 font-bold " target="_blank">
+                  Codigo
                 </a>
               </Link>
 
