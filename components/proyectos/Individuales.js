@@ -9,26 +9,32 @@ const Individuales = () => {
     {
       nameProject: "LocalHost",
       url: "https://localhostweb.vercel.app",
-      category: "demo",
-      type: "Nextjs",
+      github: "https://github.com/Valar789/soluciones_informaticas",
+
     },
     {
-      nameProject: "Kota Arquitectura",
+      nameProject: "Kota Arq",
       url: "https://kota-ten.vercel.app",
-      github: "",
-      type: "Nextjs",
+      github: "https://github.com/Valar789/kota_arquitectura",
+
     },
     {
       nameProject: "MirandaPC",
       url: "https://mirandapc.vercel.app",
-      github: "",
-      type: "Nextjs",
+      github: "https://github.com/Valar789/miranda_pc",
+
     },
     {
       nameProject: "E-commerce",
       url: "https://e-commerce-nextjs-tailwind-mongo.vercel.app",
-      github: "",
-      type: "Nextjs",
+      github: "https://github.com/Valar789/e_commerce_nextjs_tailwind_mongo",
+
+    },
+    {
+      nameProject: "Crud Task",
+      url: "https://github.com/Valar789/crud_typescript_postgres",
+      github: "https://github.com/Valar789/crud_typescript_postgres",
+
     },
   ];
 
@@ -49,8 +55,7 @@ const Individuales = () => {
 
             <div className="gap-2 flex flex-wrap">
               <Image src={rightArrow} alt="" />
-
-              <Link href={project.url}>
+              <Link href={project.github}>
                 <a className="text-slate-900 font-bold " target="_blank">
                   Codigo
                 </a>
