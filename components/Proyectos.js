@@ -6,7 +6,7 @@ export default function Proyectos() {
   return (
     <section className="  dark:text-gray-800">
       <div className="py-7 bg-white  max-w-5xl mx-auto">
-        <div className="container p-4 mx-auto   space-y-1 text-center">
+        <div className="container p-4 mx-auto  lg:px-16 space-y-1 text-center">
           <h2 className="pb-4 text-2xl font-bold md:text-4xl">
             Proyectos como Desarrollador Web
           </h2>

@@ -4,8 +4,8 @@ import OtrasTecnologias from "./skills/OtrasTecnologias";
 
 export default function Skills_EstudioSeccion() {
   return (
-    <section className="   dark:text-gray-800">
-      <div className="container py-10 bg-white max-w-5xl px-4 mx-auto">
+    <section className="dark:text-gray-800">
+      <div className="container py-10 lg:py-5 bg-white max-w-5xl px-4 mx-auto">
         <div className="grid gap-4 mx-4 sm:grid-cols-12">
           <div className="col-span-12 pb-7 sm:col-span-4">
             <div className="text-center sm:text-left ">
