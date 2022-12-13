@@ -19,15 +19,15 @@ export default function Header() {
                   Contacto
                 </h3>
 
-                <p className="flex gap-2 mt-2">
+                <p className="inLeft1 flex gap-2 mt-2">
                   <Image className="" src={phone} alt="icon" />
                   305 273 8798
                 </p>
-                <p className="flex gap-2 mt-2">
+                <p className="inLeft2 flex gap-2 mt-2">
                   <Image className="" src={email} alt="icon" />
                   luismzo789@gmail.com
                 </p>
-                <div className="flex gap-2  mt-2">
+                <div className="inLeft3 flex gap-2  mt-2">
                   <Image src={github} alt="icon" />
                   <Link
                     href="https://github.com/Valar789"
@@ -39,29 +39,29 @@ export default function Header() {
 
                 <a
                   href="https://drive.google.com/uc?id=1vUfc9usytOzEiXxH4OHsOtkmQvyAsZRO&export=download&authuser=0"
-                  className="p-2 rounded-md text-center text-white bg-gradient-to-r from-teal-600 via-teal-800 to-teal-900 hover:bg-gradient-to-br hover:text-white focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:rin/feed/libraryg-teal-800 shadow-lg shadow-teal-500/50 dark:shadow-lg dark:shadow-teal-800/80 mt-4"
+                  className="inUp p-2 rounded-md text-center text-white bg-gradient-to-r from-teal-600 via-teal-800 to-teal-900 hover:bg-gradient-to-br hover:text-white focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:rin/feed/libraryg-teal-800 shadow-lg shadow-teal-500/50 dark:shadow-lg dark:shadow-teal-800/80 mt-4"
                 >
-                  Descargar en PDF
+                  Descargar Vitae en PDF
                 </a>
               </div>
             </div>
           </div>
           <div className="relative col-span-12 px-4 space-y-3 sm:col-span-8">
-            <div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:dark:bg-slate-700">
+            <div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:bg-zinc-200">
               <div className="flex flex-col sm:relative  ">
-                <h1 className="text-4xl sm:text-6xl text-slate-900 font-semibold uppercase tracking-wide">
+                <h1 className="fadeIn2 text-4xl sm:text-6xl text-slate-900 font-semibold uppercase tracking-wide ">
                   Luis Miguel Zuleta Orozco
                 </h1>
-                <time className="text-xl pt-5 tracking-wide  font-semibold dark:text-gray-500">
+                <time className="fadeIn5 text-xl pt-5 tracking-wide  font-semibold dark:text-gray-500">
                   Desarrollador Web
                 </time>
               </div>
-              <div className="flex flex-col sm:relative  ">
+              <div className="fadeIn7 flex flex-col sm:relative  ">
                 <h3 className="text-xl text-teal-600 font-semibold tracking-wide">
                   Sobre mi
                 </h3>
 
-                <p className="mt-3">
+                <p className="mt-3 lg:mb-36">
                   Soy una persona resolutiva, con gran capacidad para
                   adaptación, me apasiona todo lo relacionado con la tecnología.
                   Durante mi trayectoria he podido aprender y perfeccionar

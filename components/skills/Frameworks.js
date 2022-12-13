@@ -1,20 +1,25 @@
 /* It returns a list of frameworks  */
 
-import { style } from "./OtrasTecnologias";
+import { styleGradient } from "../../styles/primaryColor";
+
 
 export default function Frameworks() {
   const frameworks =[
     {
-      name: "Nextjs" ,
-      css: `${style} h-4 w-6/6`
+      name: "Next.js" ,
+      css: `${styleGradient} h-4 w-6/6`
     },
     {
-      name: "Reactjs" ,
-      css: `${style} h-4 w-5/6`
+      name: "React.js" ,
+      css: `${styleGradient} h-4 w-5/6`
     },
     {
       name: "Django" ,
-      css: `${style} h-4 w-3/6`
+      css: `${styleGradient} h-4 w-3/6`
+    },
+    {
+      name: "Express.js" ,
+      css: `${styleGradient} h-4 w-4/6`
     },
 
   ]

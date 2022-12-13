@@ -1,53 +1,54 @@
 /* It returns a list of otrasTecnologias  */
-export const style = "bg-gradient-to-r from-teal-600 via-teal-800 to-teal-900 hover:bg-gradient-to-br hover:text-white focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:rin/feed/libraryg-teal-800" 
-  
+
+import {styleGradient } from "../../styles/primaryColor";
+
 export default function OtrasTecnologias() {
 
 
   const OtrasTecnologias = [
     {
       name: "HTML",
-      css: `${style} h-4 w-5/6`,
+      css: `${styleGradient} h-4 w-6/6`,
     },
     {
       name: "CSS",
-      css: `${style} h-4 w-5/6`,
+      css: `${styleGradient} h-4 w-6/6`,
     },
     {
       name: "Tailwind CSS",
-      css: `${style} h-4 w-5/6`,
+      css: `${styleGradient} h-4 w-6/6`,
     },
     {
       name: "BOOTSTRAP",
-      css: `${style} h-4 w-4/6`,
+      css: `${styleGradient} h-4 w-5/6`,
     },
     {
       name: "SQL",
-      css: `${style} h-4 w-3/6`,
+      css: `${styleGradient} h-4 w-3/6`,
     },
     {
       name: "GIT",
-      css: `${style} h-4 w-4/6`,
+      css: `${styleGradient} h-4 w-4/6`,
     },
     {
       name: "MONGODB",
-      css: `${style} h-4 w-3/6`,
+      css: `${styleGradient} h-4 w-3/6`,
     },
     {
       name: "FIREBASE",
-      css: `${style} h-4 w-3/6`,
+      css: `${styleGradient} h-4 w-3/6`,
     },
     {
       name: "SUPABASE",
-      css: `${style} h-4 w-3/6`,
+      css: `${styleGradient} h-4 w-3/6`,
     },
     {
       name: "BITBUCKET",
-      css: `${style} h-4 w-4/6`,
+      css: `${styleGradient} h-4 w-4/6`,
     },
     {
       name: "JIRA",
-      css: `${style} h-4 w-5/6`,
+      css: `${styleGradient} h-4 w-5/6`,
     },
   ];
   return (

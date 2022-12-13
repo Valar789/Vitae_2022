@@ -1,20 +1,22 @@
 /* It returns a list of languages  */
 
-import { style } from "./OtrasTecnologias";
+import { styleGradient } from "../../styles/primaryColor";
+
+ 
 
 export default function Lenguajes() {
   const lenguajes = [
     {
       name: "Javascript",
-      css: `${style} h-4 w-5/6`,
+      css: `${styleGradient} h-4 w-6/6`,
     },
     {
       name: "Typescript",
-      css: `${style} h-4 w-3/6`,
+      css: `${styleGradient} h-4 w-5/6`,
     },
     {
       name: "Python",
-      css: `${style} h-4 w-3/6`,
+      css: `${styleGradient} h-4 w-3/6`,
     },
   ];
 

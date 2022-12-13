@@ -5,7 +5,7 @@ import photo from "../public/photo.jpg";
 export default function Photo() {
   return (
     <div>
-      <div className="relative mx-auto overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+      <div className="fadeIn2 relative mx-auto overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
         <Image className="object-fill w-full h-full" src={photo} alt="Person" />
 
         <div className="absolute inset-0 flex flex-col justify-center m-auto text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
