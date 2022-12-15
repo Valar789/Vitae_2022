@@ -51,7 +51,7 @@ export default function EfectParticles( ) {
             value: "#0a3533",
           },
           links: {
-            color: "#023d39",
+            color: "#105a56",
             distance: 150,
             enable: true,
             opacity: 0.5,
