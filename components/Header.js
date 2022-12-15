@@ -63,7 +63,7 @@ export default function Header() {
                   Sobre mi
                 </h3>
 
-                <p className="mt-3 mb-3">
+                <p className="mt-3 mb-5">
                   Soy una persona resolutiva, con gran capacidad para
                   adaptación, me apasiona todo lo relacionado con la tecnología.
                   Durante mi trayectoria he podido aprender y perfeccionar
@@ -74,10 +74,10 @@ export default function Header() {
                 </p>
         
               </div>
-              <div className="inUp grid sm:grid-cols-3 grid-cols-1 gap-3 p-10">
-                  <Image className="object-contain" src={nextjs} alt="Nextjs" />
-                  <Image className="object-contain" src={reactjs} alt="Nextjs" />
-                  <Image className="object-contain" src={nodejs} alt="Nextjs" />
+              <div className="inUp h-24 grid sm:grid-cols-3 grid-cols-1 gap-3">
+                  <Image objectFit="contain"  src={nextjs} alt="Nextjs" />
+                  <Image objectFit="contain"  src={reactjs} alt="reactjs" />
+                  <Image objectFit="contain"  src={nodejs} alt="nodejs" />
                 </div>
             </div>
           </div>
