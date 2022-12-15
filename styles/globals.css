@@ -78,3 +78,29 @@ a:hover {
   animation: fadeInRight;
   animation-duration: 2s;
 }
+
+#tsparticles {
+  position: static;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to right top,
+    #121212,
+    #121213,
+    #121213,
+    #121314,
+    #121314,
+    #131719,
+    #131a1c,
+    #131e1e,
+    #122625,
+    #0f2d2c,
+    #0a3533,
+    #023d39
+  );
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+ 

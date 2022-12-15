@@ -9,7 +9,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <section className="text-white">
-      <div className="container bg-white text-gray-800 max-w-5xl px-4 py-16 mx-auto shadow-xl">
+      <div className="text-gray-800 bg-white max-w-5xl px-4 py-16 mx-auto shadow-xl">
         <div className="grid gap-4 mx-4 grid-cols-12 sm:grid-cols-12">
           <div className="col-span-12 sm:col-span-4">
             <div className="text-center sm:text-left mb-14">
