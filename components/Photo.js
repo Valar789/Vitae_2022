@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import photo from "../public/photo.jpg";
+import photo from "../public/photo.jpeg";
 
 export default function Photo() {
   return (

@@ -36,9 +36,9 @@ export default function Header() {
                     <a>Github</a>
                   </Link>
                 </div>
-
+      
                 <a
-                  href="https://drive.google.com/uc?id=1vUfc9usytOzEiXxH4OHsOtkmQvyAsZRO&export=download&authuser=0"
+                  href="https://drive.google.com/uc?id=1yk0Bo3SPKoLEqPy7o0ocNtyfdpZzo9fL&export=download&authuser=0"
                   className="inUp p-2 rounded-md text-center text-white bg-gradient-to-r from-teal-600 via-teal-800 to-teal-900 hover:bg-gradient-to-br hover:text-white focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:rin/feed/libraryg-teal-800 shadow-lg shadow-teal-500/50 dark:shadow-lg dark:shadow-teal-800/80 mt-4"
                 >
                   Descargar Vitae en PDF
@@ -56,7 +56,7 @@ export default function Header() {
                   Desarrollador Web
                 </time>
               </div>
-              <div className="fadeIn7 flex flex-col sm:relative  ">
+              <div className="fadeIn5 flex flex-col sm:relative  ">
                 <h3 className="text-xl text-teal-600 font-semibold tracking-wide">
                   Sobre mi
                 </h3>
@@ -70,6 +70,9 @@ export default function Header() {
                   que pueda seguir ampliando mi experiencia y que me permita
                   asumir nuevas responsabilidades como desarrollador.
                 </p>
+                <div>
+                  
+                </div>
               </div>
             </div>
           </div>
