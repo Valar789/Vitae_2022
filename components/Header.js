@@ -41,7 +41,7 @@ export default function Header() {
 
                 <a
                   href="https://drive.google.com/uc?id=1yk0Bo3SPKoLEqPy7o0ocNtyfdpZzo9fL&export=download&authuser=0"
-                  className="inUp p-2 rounded-md text-center text-white bg-gradient-to-r from-teal-600 via-teal-800 to-teal-900 hover:bg-gradient-to-br hover:text-white focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:rin/feed/libraryg-teal-800 shadow-lg shadow-teal-500/50 dark:shadow-lg dark:shadow-teal-800/80 mt-4"
+                  className="inUp p-2  rounded-md text-center text-white bg-gradient-to-r from-teal-600 via-teal-800 to-teal-900 hover:bg-gradient-to-br hover:text-white focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:rin/feed/libraryg-teal-800 shadow-lg shadow-teal-500/50 dark:shadow-lg dark:shadow-teal-800/80 mt-5"
                 >
                   Descargar Vitae en PDF
                 </a>
@@ -63,7 +63,7 @@ export default function Header() {
                   Sobre mi
                 </h3>
 
-                <p className="mt-3 mb-5">
+                <p className="mt-3 mb-3">
                   Soy una persona resolutiva, con gran capacidad para
                   adaptación, me apasiona todo lo relacionado con la tecnología.
                   Durante mi trayectoria he podido aprender y perfeccionar
@@ -75,9 +75,9 @@ export default function Header() {
         
               </div>
               <div className="inUp grid sm:grid-cols-3 gap-2">
-                  <Image className=" object-cover h-32" src={nextjs} alt="Nextjs" />
-                  <Image className=" object-cover h-32"  src={reactjs} alt="reactjs" />
-                  <Image className=" object-cover h-32"  src={nodejs} alt="nodejs" />
+                  <Image className=" object-contain  " src={nextjs} alt="Nextjs" />
+                  <Image className=" object-contain  "  src={reactjs} alt="reactjs" />
+                  <Image className=" object-contain  "  src={nodejs} alt="nodejs" />
                 </div>
             </div>
           </div>
