@@ -74,10 +74,10 @@ export default function Header() {
                 </p>
         
               </div>
-              <div className="inUp h-24 grid sm:grid-cols-3 grid-cols-1 gap-3">
-                  <Image objectFit="contain"  src={nextjs} alt="Nextjs" />
-                  <Image objectFit="contain"  src={reactjs} alt="reactjs" />
-                  <Image objectFit="contain"  src={nodejs} alt="nodejs" />
+              <div className="inUp grid sm:grid-cols-3 gap-2">
+                  <Image className=" object-cover h-32" src={nextjs} alt="Nextjs" />
+                  <Image className=" object-cover h-32"  src={reactjs} alt="reactjs" />
+                  <Image className=" object-cover h-32"  src={nodejs} alt="nodejs" />
                 </div>
             </div>
           </div>

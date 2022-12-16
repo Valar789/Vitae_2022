@@ -48,14 +48,11 @@ export default function Estudios() {
             SOPORTE TECNICO PARA EL MANTENIMIENTO DE EQUIPOS DE COMPUTO
           </p>
         </div>
-        <h3 className="text-2xl pt-5 font-bold tracking-wide">Trabajos</h3>
+        <h3 className="text-2xl pt-5 font-bold tracking-wide">Trabajo</h3>
         <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-zinc-200">
           <h3 className="text-xl font-semibold tracking-wide">
-            Frelance brindado soliciones Informaticas a empresas y particulares
+            Independiente brindando soluciones Informaticas a empresas y particulares
           </h3>
-          <time className="text-xs tracking-wide uppercase dark:text-gray-700">
-            2022
-          </time>
           <p className="">Desde 2017.</p>
         </div>
       </div>
