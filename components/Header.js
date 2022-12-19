@@ -64,13 +64,7 @@ export default function Header() {
                 </h3>
 
                 <p className="mt-3 mb-3">
-                  Soy una persona resolutiva, con gran capacidad para
-                  adaptación, me apasiona todo lo relacionado con la tecnología.
-                  Durante mi trayectoria he podido aprender y perfeccionar
-                  conocimientos que me han ayudado a construir un perfil
-                  específico. En la actualidad estoy buscando un empleo en la
-                  que pueda seguir ampliando mi experiencia y que me permita
-                  asumir nuevas responsabilidades como desarrollador.
+                Soy un apasionado y dedicado desarrollador full stack con amplia experiencia en el uso de tecnologías como JavaScript, TypeScript, Python, Node.js, Express.js, React.js y Next.js. Con mi amplio conocimiento y habilidades en estas tecnologías, soy capaz de trabajar en todos los aspectos de una aplicación o sitio web, desde el diseño y la estructura hasta la implementación y el mantenimiento. Además, soy una persona altamente colaborativa y siempre estoy dispuesto a ayudar a mis compañeros de trabajo y a aprender de ellos. Si estás buscando un desarrollador full stack confiable y comprometido, no dudes en considerarme para tu próximo proyecto.
                 </p>
         
               </div>
